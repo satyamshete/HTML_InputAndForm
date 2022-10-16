@@ -1,0 +1,60 @@
+header
+{
+    background-color: coral;
+    padding: 2px;
+    text-align: center;
+}
+html, input
+{
+    font-family: sans-serif;
+    margin-left: 15px;
+}
+body
+{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2em;
+}
+form
+{
+    margin-top: 40px;
+}
+div
+{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+label
+{
+    width: 35%;
+    text-align: right;
+    margin-right: 2px;
+}
+label, input, button
+{
+    font-size: 16px;
+    line-height: 1.5;
+}
+input
+{
+    width: 50%;
+}
+.error, .error-email, .error-password, .error-number
+{
+    color: red;
+}
+input{
+    flex: auto;
+}
+.submit-button
+{
+    display: block;
+    margin: 0 auto;
+}
+.salary-class
+{
+    align-items: center;
+}
